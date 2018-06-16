@@ -1,5 +1,11 @@
 # pierrerochard.github.io
 
+### Useful commands
+
+`npm install -g diff2html-cli`
+
+`diff2html -F my-pretty-diff.html -- -M pr/log-wallet-name.1..pr/log-wallet-name.2`
+
 
 ### Bitcoin branch diffs
 
