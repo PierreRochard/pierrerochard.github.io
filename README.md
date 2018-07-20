@@ -13,7 +13,7 @@
 
 [pr/log-wallet-name.2..pr/log-wallet-name.3](https://pierrerochard.github.io/bitcoin/diffs/pr_log-wallet-name_2__pr_log-wallet-name_3.html)
 
-[pr/log-wallet-name.3.1..pr/log-wallet-name.4](https://pierrerochard.github.io/bitcoin/diffs/pr_log-wallet-name_3_1__pr_log-wallet-name_4.html)
+[pr/log-wallet-name.3..pr/log-wallet-name.4](https://pierrerochard.github.io/bitcoin/diffs/pr_log-wallet-name_3__pr_log-wallet-name_4.html)
 
 
 diff <(git diff B A) <(git diff D A0)
