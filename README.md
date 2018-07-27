@@ -15,6 +15,8 @@
 
 [pr/log-wallet-name.3..pr/log-wallet-name.4](https://pierrerochard.github.io/bitcoin/diffs/pr_log-wallet-name_3__pr_log-wallet-name_4.html)
 
+[pr/log-wallet-name.5..pr/log-wallet-name.6](https://pierrerochard.github.io/bitcoin/diffs/pr_log-wallet-name_3__pr_log-wallet-name_4.html)
+
 
 diff <(git diff B A) <(git diff D A0)
 
