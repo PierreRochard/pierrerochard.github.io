@@ -17,8 +17,16 @@
 
 [pr/log-wallet-name.5..pr/log-wallet-name.6](https://pierrerochard.github.io/bitcoin/diffs/pr_log-wallet-name_5__pr_log-wallet-name_6.html)
 
+[pr/log-wallet-name.6..pr/log-wallet-name.7](https://pierrerochard.github.io/bitcoin/diffs/pr_log-wallet-name_6__pr_log-wallet-name_7.html)
+
 
 diff <(git diff B A) <(git diff D A0)
 
 
 `diff2html -F /Users/pierre/src/pierrerochard.github.io/bitcoin/diffs/pr_log-wallet-name_3__pr_log-wallet-name_4.html -- -M <(git show 553b1a7f815ec39dc30c65f22aa2f9f6cae41c25) <(git show 6d77ba31e760c0f1806b721e34437724da199955)`
+
+
+`diff2html -F /Users/pierre/src/pierrerochard.github.io/bitcoin/diffs/pr_log-wallet-name_4__pr_log-wallet-name_5.html -- -M 21c5b40c6c5db06a9b37b1ba0229166df9fc4de4....dd67b82bbeba948823224d9ab6c2aa2d24730e21`
+
+
+`interdiff -u fb71743dbbd188ec3796f6e489f0a73e328bb7cb.txt dd67b82bbeba948823224d9ab6c2aa2d24730e21.txt | diff2html  -F /Users/pierre/src/pierrerochard.github.io/bitcoin/diffs/pr_log-wallet-name_4__pr_log-wallet-name_5.html -i stdin`
