@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="home">
+    {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+
+    {{ content }}
+    <h1>Projects</h1>
+    {% assign sorted_projects = site.projects | sort:"title" %}
+    {% for project in sorted_projects %}
+    <h2>
+        <a href="{{ project.url }}">
+            {{ project.title }}
+        </a>
+    </h2>
+    <p>{{ staff_member.content | markdownify }}</p>
+    {% endfor %}
+
+</div>
