@@ -49,8 +49,11 @@ Sourcetrail setup:
 All done!
 
 
-<a name="myfootnote1">1</a>: Build and install [Bear](https://github.com/rizsotto/Bear) or 
-[scan-build](https://github.com/rizsotto/scan-build). On macOS Bear does not work with the default `make` due to a 
+
+
+_footnote_
+<a name="myfootnote1">1</a>. Build and install [Bear](https://github.com/rizsotto/Bear) or 
+[scan-build](https://github.com/rizsotto/scan-build). On macOS they do not work with the default `make` due to a 
 system security policy. To work around this, `brew install make && pip install scan-build` 
 and run `PATH="/usr/local/opt/make/libexec/gnubin:$PATH" && ./autogen.sh && ./configure  && gmake clean && intercept-build --override-compiler --append gmake -j8` in your bitcoin directory.
 
